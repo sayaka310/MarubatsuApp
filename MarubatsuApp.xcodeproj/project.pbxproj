@@ -13,6 +13,7 @@
 		7F74C1592735FA4C008CD1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F74C1572735FA4C008CD1BA /* Main.storyboard */; };
 		7F74C15B2735FA50008CD1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F74C15A2735FA50008CD1BA /* Assets.xcassets */; };
 		7F74C15E2735FA50008CD1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F74C15C2735FA50008CD1BA /* LaunchScreen.storyboard */; };
+		7FC64D342738D19600892801 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC64D332738D19500892801 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F74C15A2735FA50008CD1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F74C15D2735FA50008CD1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F74C15F2735FA50008CD1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC64D332738D19500892801 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7F74C1532735FA4C008CD1BA /* SceneDelegate.swift */,
 				7F74C1552735FA4C008CD1BA /* ViewController.swift */,
 				7F74C1572735FA4C008CD1BA /* Main.storyboard */,
+				7FC64D332738D19500892801 /* CreateViewController.swift */,
 				7F74C15A2735FA50008CD1BA /* Assets.xcassets */,
 				7F74C15C2735FA50008CD1BA /* LaunchScreen.storyboard */,
 				7F74C15F2735FA50008CD1BA /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC64D342738D19600892801 /* CreateViewController.swift in Sources */,
 				7F74C1562735FA4C008CD1BA /* ViewController.swift in Sources */,
 				7F74C1522735FA4C008CD1BA /* AppDelegate.swift in Sources */,
 				7F74C1542735FA4C008CD1BA /* SceneDelegate.swift in Sources */,
