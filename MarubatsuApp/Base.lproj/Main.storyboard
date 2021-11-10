@@ -82,7 +82,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="noButton" destination="7c0-X4-S8t" id="oER-Vt-N2K"/>
                         <outlet property="questionLabel" destination="Vuh-fk-GvR" id="Vdi-8h-Uwo"/>
+                        <outlet property="yesButton" destination="ZbR-fc-Zha" id="mCb-hN-CW0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     
     var questions: [[String: Any]] = []
     
+    @IBOutlet weak var yesButton: UIButton!
+    @IBOutlet weak var noButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +27,9 @@ class ViewController: UIViewController {
         }
         
         showQuestion()
+        
+        isEnableYesNoButton()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,6 +40,8 @@ class ViewController: UIViewController {
         }
         
         showQuestion()
+        
+        isEnableYesNoButton()
     }
     
     @IBAction func tappedNoButton(_ sender: Any) {
@@ -94,6 +102,20 @@ class ViewController: UIViewController {
         alert.addAction(close)
         present(alert, animated: true, completion: nil)
         
+    }
+    
+    func isEnableYesNoButton() {
+        if questions.count == 0 {
+            noButton.isEnabled = false
+            noButton.alpha = 0.3
+            yesButton.isEnabled = false
+            yesButton.alpha = 0.3
+        } else {
+            noButton.isEnabled = true
+            noButton.alpha = 1.0
+            yesButton.isEnabled = true
+            yesButton.alpha = 1.0
+        }
     }
     
 }
